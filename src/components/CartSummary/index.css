@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.cart-summary-bg-con {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+  
+  .total-order-des {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #616e7c;
+    line-height: 0.5;
+    text-align: left;
+    width: 150px;
+    align-self: flex-end;
+    padding-bottom: 0px;
+  }
+  @media screen and (min-width: 768px) {
+    .total-order-des {
+      font-size: 16px;
+      text-align: left;
+      align-self: flex-start;
+      width: auto;
+    }
+  }
+  .span-text {
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 600;
+  
+    color: #171f46;
+  }
+  @media screen and (min-width: 768px) {
+    .span-text {
+      font-size: 20px;
+    }
+  }
+  .total-item-des {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #616e7c;
+    text-align: right;
+    line-height: 0.5;
+    width: 150px;
+    text-align: left;
+    align-self: flex-end;
+  }
+  @media screen and (min-width: 768px) {
+    .total-item-des {
+      font-size: 15px;
+      text-align: left;
+      align-self: flex-start;
+      width: auto;
+    }
+  }
+  .check-out-btn {
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #ffffff;
+    height: 35px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90vw;
+    cursor: pointer;
+    align-self: center;
+    background-color: #0b69ff;
+  }
+  @media screen and (min-width: 768px) {
+    .check-out-btn {
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 5px;
+      width: 200px;
+    }
+  }
+  
